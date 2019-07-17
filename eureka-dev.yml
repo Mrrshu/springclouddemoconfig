@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name: tensquare-eureka
+    name: eureka
 eureka:
   client:
     registerWithEureka: false #是否将自己注册到Eureka服务中，本身就是所有无需注册
